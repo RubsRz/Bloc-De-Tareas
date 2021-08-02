@@ -1,3 +1,17 @@
+document.getElementById('nav').addEventListener('click', () => {
+    window.alert("Proyecto Integrador por: \n Álvaro Herrera \n Oscar Ramírez \n Rubén Rodríguez ")
+});
+
+
+
+
+
+
+
+
+
+
+
 document.getElementById('formTask').addEventListener('submit', saveTask);
 
 function saveTask(e) {
@@ -66,9 +80,9 @@ function getTasks() {
 
         tasksView.innerHTML += `<div class="card mb-3">
         <div class="card-body">
-            <p>${title} - ${description} - ${datetasks}
-            <a href="#" onclick="deleteTask('${idValue}')" class="btn btn-danger ml-5">Eliminar</a>
+            <p>- ${title} - <p>${description} <p>${datetasks}
             </p>
+            <a href="#" onclick="deleteTask('${idValue}')" class="btn btn-danger ml-5 float-right">Eliminar</a>
             </div>
         </div>`;
     }
