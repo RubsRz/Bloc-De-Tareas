@@ -3,12 +3,11 @@
     padding: 0;
 } */
 
-
-/* body {
-    background: linear-gradient(to right, rgb(175, 232, 255), rgb(180, 118, 252));
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
+body {
+    background: linear-gradient(to right, rgb(63, 149, 184), rgb(125, 176, 211));
+    /* font-size: 16px; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
 
 header {
     display: flex;
@@ -34,7 +33,41 @@ header a:hover {
     font-size: 14.6px;
 }
 
+.p {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
 header>img {
     width: auto;
     height: 80px;
+}
+
+h2 {
+    color: rgb(39, 126, 177);
+    text-align: center;
+}
+
+#btnguardar {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(39, 126, 177)
+}
+
+.card-body {
+    box-shadow: 8px 5px 15px black;
+}
+
+
+/* 
+form {
+    background-color: darkblue
+} */
+
+#btndelete {
+    align-self: right;
+    align-items: right;
+    align-content: right;
+    text-align: right;
 }
